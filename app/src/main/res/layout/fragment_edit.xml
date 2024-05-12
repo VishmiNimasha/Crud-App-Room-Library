@@ -30,6 +30,7 @@
             android:layout_below="@id/editNoteHeading"
             android:layout_marginTop="29dp"
             android:background="@drawable/border"
+            android:backgroundTint="#E4E8C0"
             android:fontFamily="sans-serif"
             android:hint="@string/enter_the_title"
             android:maxLines="1"

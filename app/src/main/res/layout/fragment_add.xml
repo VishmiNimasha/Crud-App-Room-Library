@@ -30,6 +30,7 @@
             android:layout_below="@id/addNoteHeading"
             android:layout_marginTop="16dp"
             android:background="@drawable/border"
+            android:backgroundTint="#E4E8C0"
             android:fontFamily="sans-serif"
             android:hint="@string/enter_the_task_titile"
             android:maxLines="1"

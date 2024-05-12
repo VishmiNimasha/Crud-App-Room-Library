@@ -11,7 +11,7 @@ class ScreenOne : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_screen_one)
         // Initialize medlogoLoad
-        logoLoad = findViewById(R.id.imageView)
+        logoLoad = findViewById(R.id.medlogoLod)
 
         logoLoad.alpha = 0f
         logoLoad.animate().setDuration(5000).alpha(1f).withEndAction {
