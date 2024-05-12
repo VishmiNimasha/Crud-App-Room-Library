@@ -25,23 +25,23 @@
 
         <EditText
             android:id="@+id/editNoteTitle"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:hint="@string/enter_the_title"
-            android:padding="12dp"
-            android:textSize="20sp"
+            android:layout_width="391dp"
+            android:layout_height="64dp"
             android:layout_below="@id/editNoteHeading"
+            android:layout_marginTop="29dp"
             android:background="@drawable/border"
-            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/enter_the_title"
             android:maxLines="1"
-            android:fontFamily="sans-serif"/>
+            android:padding="12dp"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editNoteDesc"
             android:layout_width="399dp"
-            android:layout_height="554dp"
+            android:layout_height="551dp"
             android:layout_below="@id/editNoteTitle"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="14dp"
             android:background="@drawable/border"
             android:fontFamily="sans-serif"
             android:gravity="top"
@@ -53,15 +53,15 @@
             android:id="@+id/editNoteFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="20dp"
-            android:clickable="true"
-            android:backgroundTint="@color/primary"
-            android:tintMode="@color/white"
-            android:src="@drawable/done_icon"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
-            android:contentDescription="editFab" />
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="642dp"
+            android:backgroundTint="@color/primary"
+            android:clickable="true"
+            android:contentDescription="editFab"
+            android:src="@drawable/done_icon"
+            android:tintMode="@color/white" />
 
     </RelativeLayout>
 </layout>
